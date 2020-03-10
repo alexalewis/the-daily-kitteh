@@ -9,4 +9,90 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: #008BA1;
+  margin: 0.25rem 6rem 6rem;
+}
+
+main {
+  display: flex;
+  background-color: #E0FFFF;
+}
+
+h1 {
+  color: #605d5d;
+  text-align: center;
+  background-color: #E0FFFF;
+  padding: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+section {
+  margin: 0;
+  padding: 1rem;
+}
+
+footer {
+  background-color: #D3D3D3;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  color: black;
+  text-decoration: underline;
+  padding: 1rem;
+  margin: 0;
+}
+
+nav {
+  background-color: rgb(76, 187, 205);
+  margin: 0;
+}
+
+nav ul {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  text-decoration: underline;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+h2, h3 {
+  color: #605d5d;
+}
+
+p {
+  text-align: left;
+  color: #414040;
+  margin-right: 2rem;
+}
+
+h3 {
+  text-align: left;
+  padding: 0.25rem;
+}
+
+.kitten {
+  border: 0.1rem solid #008BA1;
+  padding: 0;
+  text-align: center;
+  margin: 2rem;
+}
+
+.kitten ul {
+  padding-left: 2rem;
+  text-align: left;
+}
+
+img {
+  padding: 0.5rem;
+  width: 10rem;
+  height: auto;
 }
